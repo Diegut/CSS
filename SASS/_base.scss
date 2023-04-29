@@ -1,0 +1,115 @@
+
+// Variables
+$fuente-tipica: sans-serif, Helvetica, Arial;
+$color-fondo: #ccc;
+$color-letra: #666;
+$color-letra-2: blue;
+
+//uso de variables
+body{
+    background-color: $color-fondo;
+}
+
+h1{
+    font-family: $fuente-tipica;
+    color: $color-letra;
+}
+
+p{
+    font-family: $fuente-tipica;
+}
+// anidacion
+#caja{
+width: 500px;
+margin: 0px auto;
+text-align: center;
+background-color: white;
+
+
+    h1{
+        background-color: bisque;
+    }
+    p{
+        color: $color-letra-2;
+    }
+    .info{
+        font-size: 30px;
+        margin: 0px auto;
+        	
+        .author{
+            color: green;
+            font-size: 10px;
+        }
+
+    }
+
+    
+}
+
+// mixins / funciones
+
+@mixin crearBorder($color, $size, $shadow){
+    border: 5px solid $color;
+    border-radius: $size;
+    box-shadow: 0px 1px $size $shadow;
+}
+
+#caja{
+    @include crearBorder(red, 10px, black);
+}
+
+.listado{
+    @include crearBorder(blue, 20px, white);
+}
+
+// Herencia
+%alert-normal{
+    border: 1px solid gray;
+    background-color: rgb(255, 222, 203);
+    color: white;
+    padding: 10px;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.alert{
+    @extend %alert-normal;
+}
+
+.alert-danger{
+    @extend %alert-normal;
+    color: red;
+    border-color: red; 
+}
+
+.alert-success{
+    @extend %alert-normal;
+    color: green;
+    border-color: green; 
+}
+
+
+// Operadores
+
+h1{
+    font-size: 20px + 5px - 1px;
+}
+
+// Condicionales - IF
+h1{
+    @if $color-fondo == #ccc{
+        color:black
+    }@else{
+        color: aqua;
+    }
+}
+
+
+
+//FOR
+$contador: 1;
+@for $contador from 1 through 8{
+    .listado ul li:nth-child(#{$contador}){
+        font-size: $contador + 12px;
+    }
+}

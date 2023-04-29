@@ -1,0 +1,281 @@
+@media (max-width:1250px){
+    .wrap{
+        width: 90%;
+        margin: 0px auto;
+    }
+    #banner h1{
+        font-size: 35px;
+        margin: 30px auto;
+    }
+    .card .category{
+        font-size: 16px;
+    }
+
+    #footer h5{
+        font-size: 25px;
+    }
+    .card .description{
+        font-size: 12px;
+    }
+    #login #user{
+        margin-left: 20px;
+    }
+    #login #password{
+        margin-left: 23px;
+    }
+}
+
+@media (max-width: 1080px){
+    
+    #article{
+        width: 60%;
+    }
+    #lateral{
+        width: 30%;
+    }
+
+    .notice{
+        height: 250px;
+    }
+    article #blog{
+        padding-top: 40px;
+        padding-bottom: 35px;
+    }
+
+    #notice-blog{
+        height: 120px;
+    }
+    #login #user{
+        margin-left: 20px;
+    }
+    #login #password{
+        margin-left: 23px;
+    }
+
+    .notice p{
+        font-size: 16px;
+    }
+
+    .notice h4 a{
+        font-size: 22px;
+    }
+    
+    .data{
+        font-size: 12px;
+    }
+
+    #lateral form #inputsearch{
+        width: 80%;
+    }
+    
+}
+
+@media (max-width:800px){
+    #lateral #search form #lens{
+        width: 12%;
+    }
+
+    .notice{
+        height: 350px;
+    }
+    
+    #article{
+        width: 55%;
+    }
+    #lateral{
+        width: 30%;
+    }
+    article #blog{
+        padding-top: 40px;
+        padding-bottom: 35px;
+    }
+
+    #notice-blog{
+        height: 120px;
+    }
+    .card{
+        margin-top: 20px;
+        height: 170px;
+    }
+    .card .icon{
+        height: 90px;
+        font-size: 45px;
+    }
+
+    
+    .card .description{
+        display: none;
+
+    }
+    #login input[type="submit"], 
+    #login input[type="button"], 
+    #login input[type="reset"], 
+    #login button {
+        width: 90%;
+    }
+
+    #lateral #login{
+        height: 300px;
+    }
+}
+
+@media (max-width: 710px){
+    .notice{
+        height: 400px;
+    }
+    #lateral #login{
+        height: 320px;
+    }
+}
+
+@media (max-width: 600px){
+
+    #menu{
+        clear:both;
+        width: 90%;
+        float:none;
+        margin: 0px auto;
+        text-align: center;
+    }
+    #header{
+        height: 120px;
+        padding-top: 20px;
+    }
+
+    .notice{
+        height: 500px;
+    }
+
+    #logo{
+        float: none;
+        margin: auto;
+    }
+
+    #header .wrap{
+        margin: auto;
+    }
+
+    #article{
+        width: 60%;
+    }
+    #lateral{
+        width: 25%;
+    }
+
+    #login input[type="submit"], 
+    #login input[type="button"], 
+    #login input[type="reset"], 
+    #login button {
+        width: 85%;
+    }
+
+    #login #user{
+        margin-left: 15px;
+    }
+    #login #password{
+        margin-left: 18px;
+    }
+
+    #login input[type="email"], #login input[type="password"] {
+        
+        width: 60%;
+    }
+
+    #social div .overlay {
+        font-size: 10px;
+        height: 9px;
+        margin-left: 50px;
+        margin-top: -35px;
+    }
+
+    #social a{
+        font-size: 30px;
+    }
+
+    #social { 
+        height: 180px;
+    }
+
+    #lateral form #inputsearch {
+        width: 70%;
+    }
+
+    #lateral #search form #lens {
+        width: 20%;
+    }
+
+    #banner h1{
+        font-size: 30px;
+        margin: 32px auto;
+    }
+
+    #footer .wrap > div { 
+        width: 100%;
+        margin: 1%;
+        height: 320px;
+    }
+
+    #footer {
+        height: auto;
+    }
+}
+
+
+@media (max-width: 500px){
+
+    #menu ul li a{
+        font-size: 15px;
+    }
+
+    #lateral{
+        width: 90%;
+        margin: auto;
+    }
+
+    #article{
+        width: 90%;
+        margin: auto;
+    }
+
+    #article h2{
+        margin: 0px auto;
+    }
+    .wrap{
+        display: grid;
+    }
+
+    #lateral form #inputsearch {
+        width: 80%;
+    }
+    #lateral #search form #lens {
+        width: 15%;
+    }
+
+    .card{
+        margin-top: 20px;
+        width: 30%;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card .icon{
+        height: 60px;
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .card .category{
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+
+    #banner h1{
+        font-size: 30px;
+        margin: 32px auto;
+    }
+
+    .notice{
+        height: 560px;
+    }
+
+}
