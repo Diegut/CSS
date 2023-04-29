@@ -1,0 +1,43 @@
+@font-face{
+    font-family: P5hatty;
+    src: url(font/p5hatty.ttf);
+}
+
+h1{
+    font-family: P5hatty, Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+
+    /* COLORES */
+
+    /* Systema*/
+    color: mediumpurple;
+   
+}
+h3{
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+    font-weight: lighter;
+
+     /*hexadecimal*/
+
+     color: #134618 ;
+}
+h2{
+    font-family: P5hatty;
+    font-size: 20px;
+
+    /*rgb*/
+
+    color: rgb(123,0,13);
+}
+p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+    /*regba*/
+
+    color: rgba(60, 13, 122, 0.5);
+
+}
